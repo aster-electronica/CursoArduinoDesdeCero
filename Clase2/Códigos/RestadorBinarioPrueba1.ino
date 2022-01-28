@@ -1,8 +1,8 @@
 /******************************************************************************* 
   *  Áster Electrónica
-  *  Sumador Binario de 4bits
+  *  Restador Binario de 4bits
   *  Abstract: En este ejemplo, se tendran dos números de 4 bits como entrada
-  *  a la salida se tendrá un número de 5 bits representado por leds, el 
+  *  y la salida se tendrá un número de 5 bits representado por leds, el 
   *  resultado también se puede visualizar desde el monitor serial del IDE.
   *  Creado por Miguel AngelLo.
   *  LinkedIn: @miguelangello21
