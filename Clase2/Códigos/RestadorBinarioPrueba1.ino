@@ -45,7 +45,7 @@ void setup() {
   //Declaramos todo el puerto C como entrada. 
   DDRC = B00000000;
   //Declaramos PD2,PD3,PD4,PD5,PD6 y PD7 como entradas SIN modificar el estado de PD0 y PD1.
-  DDRD &= B00000011;
+  DDRD |= B11111100;
 
   //Iniciamos la comunicación serial
   Serial.begin(9600);
