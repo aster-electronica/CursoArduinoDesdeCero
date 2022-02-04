@@ -83,9 +83,9 @@ void imprimeResultado(){
   Serial.print("\t=\t");
   Serial.println("Resultado");
 
-  Serial.print(restando1);
+  Serial.print(int(restando1));
   Serial.print("\t\t-\t");
-  Serial.print(restando2);
+  Serial.print(int(restando2));
   Serial.print("\t\t=\t");
   //Aquí está la magia negra. Convertimos el tipo de dato char a un int, para que el IDE lo reconozca como valor numérico negativo.
   Serial.print(int(resultado));
